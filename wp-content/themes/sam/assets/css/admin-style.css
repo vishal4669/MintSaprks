@@ -1,0 +1,15 @@
+/* Admin Custom Style */
+
+.wc-business-meta table#business_info {
+    color: #000;
+    width: 100%;
+}
+.wc-business-meta table#business_info td {
+    padding: 10px 6px 10px 0;
+    border-bottom: 1px solid #ccd0d4;
+}
+.wc-business-meta table#business_info tr:last-child td {
+    border: none;
+}
+
+/* End Style */

@@ -1,0 +1,148 @@
+/* 
+Theme Name:		 Sam
+Theme URI:		 http://childtheme-generator.com/
+Description:	 Sam is a child theme of Twenty Twenty-Two, created by ChildTheme-Generator.com
+Author:			 Wordpress Team
+Author URI:		 http://childtheme-generator.com/
+Template:		 twentytwentytwo
+Version:		 1.0.0
+Text Domain:	 sam
+*/
+
+
+/* Theme Custom Style */
+
+.wpcf7-form.business-contact-form .wpcf7-not-valid-tip {
+	display: none;
+}
+
+.status__Expiring{
+	border:1px solid;
+	border-radius:3px;
+	font-size:12px;
+	font-weight:600;
+	padding:2px 8px
+}
+
+.status__Expiring{
+	border-color:#ff9000;
+	color:#ff9000
+}
+
+.status__Active,.status__Expired,.status__Expiring{
+	border:1px solid;
+	border-radius:3px;
+	font-size:12px;
+	font-weight:600;
+	padding:2px 8px
+}
+
+.status__Active{
+	border-color:#009f71;
+	color:#009f71
+}
+
+.status__Expired,.status__Expiring{
+	border:1px solid;
+	border-radius:3px;
+	font-size:12px;
+	font-weight:600;
+	padding:2px 8px
+}
+
+.status__Expired{
+	border-color:#1f235260;
+	color:#1f235260
+}
+.page-welcome-title{
+    margin: 0 auto;
+    max-width: 840px !important;
+    width: 100%;
+}
+.wp-block-post-content .wp-block-columns{
+	margin: 0 auto;
+    max-width: 840px !important;
+    width: 100%;
+    grid-gap: 50px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    padding-top: 6px;
+}
+
+.reg-choices__new .reg-choices__paragraph{
+	min-height: 125px;
+}
+.help-box{
+	margin: 50px auto !important;
+    max-width: 840px !important;
+    box-sizing: border-box;
+}
+.sam-search,
+.contact-us{
+	margin: 0px auto !important;
+    max-width: 840px !important;
+}
+.home .wp-site-blocks{
+	position: relative;
+}
+.home .wp-site-blocks:before {
+    background-image: url(./assets/img/header.jpg);
+    background-position: top;
+    background-repeat: repeat-x;
+    background-size: contain;
+    content: "";
+    height: 700px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.home .wp-site-blocks:after {
+    background-image: url(./assets/img/footer.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 0;
+    content: "";
+    height: 700px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+.home .header-part{
+	margin: 0 auto;
+    max-width: 840px !important;
+}
+.home .page-welcome-title {
+    padding: 55px 0 30px;
+}
+/* End Style */
+
+@media screen and (max-width : 720px) {
+	.wp-block-post-content .wp-block-columns{
+		margin: 0 auto;
+	    max-width: 840px !important;
+	    width: 100%;
+	    grid-gap: 50px;
+	    display: grid;
+	    gap: 50px;
+	    grid-template-columns: repeat(1,minmax(0,1fr));
+	    padding-top: 6px;
+	}
+	.home  .wp-block-template-part{
+		padding-top: 90px;
+
+	}
+	.home  .wp-block-template-part .is-content-justification-right{
+		justify-content: center;
+	}
+	.home .page-welcome-title {
+	    padding: 35px 0 30px;
+	}
+	main.wp-container-10{
+		padding: 0 10px;
+	}
+}
